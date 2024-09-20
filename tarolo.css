@@ -10,32 +10,43 @@ background-color: green;
 background-color: yellow;
 }
 .lila{
+    width: 100pt;
+    height: 100pt;
 background-color: purple;
 }
 #zold1{
-    width: 100pt;
-    height: 100pt;
+    
     visibility: hidden;
 }
 #sarga1{
-    width: 100pt;
-    height: 100pt;
+    
     visibility: hidden;
 }
 #lila1{
-    width: 100pt;
-    height: 100pt;
+   
+   
     align-content: center;
     justify-content: center;
 }
 .flex-container2{
     width: 100%;
     height: 400pt;
+    background-color: yellow;
 }
-.lila2{
-    width: 100pt;
-    height: 100pt;
+.lila.lila2{
+    
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
+    
+}
+.lila.lila3{
+    
+    display: flex;
+    justify-content: space-around;
     vertical-align: auto;
+}
+.lila.lila4{
+   
+    display: flex;
+    flex-direction:row-reverse;
 }
